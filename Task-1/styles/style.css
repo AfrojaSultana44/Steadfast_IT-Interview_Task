@@ -229,4 +229,8 @@ body{
   .hero-btn{
     font-weight: 500;
   }
+
+  .card-container {
+    grid-template-columns: 1fr;
+  }
 }
