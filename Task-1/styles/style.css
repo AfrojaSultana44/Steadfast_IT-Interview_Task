@@ -145,4 +145,21 @@ body{
     font-weight: bold;
     font-size: 1rem;
   }
+
+  .hero{
+    height: auto;
+    padding: 50px;
+  }
+
+  .hero-content{
+    width: 100%;
+  }
+
+  .hero-title{
+    font-size: 1.75rem;
+    font-weight: bold;
+  }
+  .hero-btn{
+    font-weight: 500;
+  }
 }
