@@ -98,6 +98,10 @@ body {
   margin-bottom: 16px;
 }
 
+.hero-btn-container > a {
+  text-decoration: none;
+}
+
 .hero-btn {
   background-color: #e02c6d;
   font-weight: bold;
@@ -110,6 +114,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
 
 #btn-title {
