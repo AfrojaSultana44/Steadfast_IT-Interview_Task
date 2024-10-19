@@ -2,6 +2,10 @@
 
 /* font-family: "Poppins", sans-serif; */
 
+:root {
+    --primary-color: #3a3a3a;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -11,3 +15,51 @@
 body{
     font-family: "Poppins", sans-serif;
 }
+
+/* header section styles */
+.nav {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links > li {
+    list-style: none;
+    padding: 20px;
+  }
+  
+  .nav-links > li > a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600px;
+    font-size: 1rem;
+  }
+  
+  .nav-links > li:first-child {
+    padding-left: 0;
+  }
+  
+  .nav-links > li:last-child {
+    padding-right: 0;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo > h3 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  .hamburger-menu,
+  .shopping-cart {
+    display: none;
+  }
+  
