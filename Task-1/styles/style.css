@@ -63,3 +63,30 @@ body{
     display: none;
   }
   
+
+
+  /* Responsive Design */
+
+
+  /* media query for small devices */
+@media screen and (max-width: 576px) {
+  .nav {
+    padding: 35px 16px 22px;
+  }
+
+  .hamburger-menu,
+  .shopping-cart {
+    color: #1b1b1b;
+    font-size: 24px;
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links > h3 {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+}
