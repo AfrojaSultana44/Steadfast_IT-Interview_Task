@@ -11,7 +11,7 @@ const Hero = () => {
             Influencer
           </h1>
           <div>
-            <a href="">
+            <a href="#product-container">
               <button className="bg-[#e02c6d] text-[16px] font-bold text-[#ffffff] py-[10px] px-[24px] rounded-[41px] flex items-center gap-2">
                 <span>Shop Now</span>
                 <span>

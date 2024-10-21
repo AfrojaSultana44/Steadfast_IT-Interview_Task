@@ -36,8 +36,9 @@ const Card = () => {
       description: "Worldwide shifting available. Buyers protection possible!",
     },
   ]);
+
   return (
-    <div className="w-full max-w-[1200px] mx-auto px-5 py-20">
+    <div id="product-container" className="w-full max-w-[1200px] mx-auto px-5 py-20">
       <h1 className="text-center text-[#3a3a3a] text-[28px] font-semibold">
         Popular Collection
       </h1>
