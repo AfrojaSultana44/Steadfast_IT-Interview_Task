@@ -13,55 +13,80 @@
   </head>
   <body>
     <header>
-      <nav class="nav">
-        <div class="hamburger-menu">
-          <i class="fa-solid fa-bars"></i>
-        </div>
-        <div class="logo">
-          <h3>Electronic Shop</h3>
-        </div>
-        <ul class="nav-links">
-          <li><a href="">Home</a></li>
-          <li><a href="">Products</a></li>
-          <li><a href="">Sign up</a></li>
-          <li><a href="">Log in</a></li>
-          <li>
-            <a class="icon" href=""
-              ><i class="fa-solid fa-magnifying-glass"></i
-            ></a>
-          </li>
-          <li>
-            <a class="icon" href=""
-              ><i class="fa-solid fa-cart-shopping"></i
-            ></a>
-          </li>
-        </ul>
+      <div class="nav-container">
+        <nav class="nav">
+          <div class="hamburger-menu">
+            <i id="mobile-menu-open" class="fa-solid fa-bars"></i>
+          </div>
 
-        <div class="search">
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </div>
+          <div class="logo">
+            <h3>Electronic Shop</h3>
+          </div>
+          <ul id="desktop-menu" class="nav-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Sign up</a></li>
+            <li><a href="">Log in</a></li>
+            <li>
+              <a class="icon" href=""
+                ><i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </li>
+            <li>
+              <a class="icon" href=""
+                ><i class="fa-solid fa-cart-shopping"></i
+              ></a>
+            </li>
+          </ul>
 
-        <div class="shopping-cart">
-          <i class="fa-solid fa-cart-shopping"></i>
+          <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+
+          <div class="shopping-cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+        </nav>
+
+        <div
+          style="border: 1px solid green"
+          id="mobile-menu"
+          class="display-block"
+        >
+          <div class="close-menu">
+            <i
+              id="mobile-menu-close"
+              class="fa-solid fa-xmark display-hidden"
+            ></i>
+          </div>
+          <ul class="mobile-nav-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">Products</a></li>
+            <li><a href="">Sign up</a></li>
+            <li><a href="">Log in</a></li>
+          </ul>
         </div>
-      </nav>
+      </div>
       <section class="hero">
-        <div class="hero-content">
-          <h1 class="hero-title">
-            Best Collection For <br />
-            Influencer
-          </h1>
-          <div class="hero-btn-container">
-            <a href="#collection">
-              <button class="hero-btn">
-                <span id="btn-title">Shop Now</span>
-                <span><i class="fa-solid fa-arrow-right-long"></i></span>
-              </button>
-            </a>
+        <div>
+          <div class="hero-content">
+            <h1 class="hero-title">
+              Best Collection For <br />
+              Influencer
+            </h1>
+            <div class="hero-btn-container">
+              <a href="#collection">
+                <button class="hero-btn">
+                  <span id="btn-title">Shop Now</span>
+                  <span><i class="fa-solid fa-arrow-right-long"></i></span>
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </section>
     </header>
+
     <main>
       <section id="collection" class="popular-collection-container">
         <div>

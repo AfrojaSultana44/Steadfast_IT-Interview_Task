@@ -21,10 +21,10 @@ body {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding: 40px 0;
+  padding: 40px 20px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;  
 }
 
 .nav-links > li {
@@ -64,6 +64,11 @@ body {
   display: none;
 }
 
+#mobile-menu{
+  display: none;
+}
+
+
 /* hero section styles */
 .hero {
   max-width: 1200px;
@@ -82,8 +87,6 @@ body {
 }
 
 .hero-content {
-  width: 50%;
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -193,25 +196,13 @@ body {
 /* Responsive Design */
 
 /* media query for medium devices */
-@media screen and (min-width: 577px) and (max-width: 992px) {
-  .hamburger-menu,
-  .search,
-  .shopping-cart {
-    color: #1b1b1b;
-    font-size: 24px;
-    display: block;
-  }
-
-  .nav-links {
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #mobile-menu{
     display: none;
   }
 
   .hero {
     height: 400px;
-  }
-
-  .hero-content {
-    width: 80%;
   }
 
   .hero-title {
@@ -225,9 +216,49 @@ body {
 }
 
 /* media query for small devices */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 767px) {
+  .nav-container{
+    position: relative;
+  }
   .nav {
     padding: 35px 16px 22px;
+  }
+  
+  #mobile-menu{
+    width: 100%;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    border: 1px solid green;
+  }
+
+  .close-menu{
+    color: #1b1b1b;
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .mobile-nav-links{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .mobile-nav-links > li{
+    list-style: none;
+  }
+
+  .mobile-nav-links > li> a{
+    text-decoration: none;
+    color: #3a3a3a;
+    font-weight: 600;
+    font-size: 1rem;
   }
 
   .hamburger-menu,
@@ -235,6 +266,14 @@ body {
     color: #1b1b1b;
     font-size: 24px;
     display: block;
+  }
+
+  .display-hidden{
+   display: none;
+  }
+
+  .display-block{
+   display: block;
   }
 
   .search {
