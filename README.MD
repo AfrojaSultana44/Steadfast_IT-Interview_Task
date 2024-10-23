@@ -3,7 +3,9 @@
 ### Github Repository: https://github.com/AfrojaSultana44/Steadfast_IT-Interview_Task
 
 ### How To Run:
-    This repository contains three sub directory. Every directory represent as a separate task. You can run these task by the following way:
+    This repository contains three sub directory. 
+    Every directory represent as a separate task. 
+    You can run these task by the following way:
 
     1. Task-1:
         cd Task-1
