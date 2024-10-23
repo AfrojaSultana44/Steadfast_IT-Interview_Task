@@ -44,7 +44,7 @@ const useProductList = () => {
 
   const productFilterHandler = (value) => {
     if (value.category || value.price) {
-      const newFilterProduct = products.filter((item) => {
+      const newFilterProduct = data.filter((item) => {
         const lowerCaseCategory = item.category.toLocaleLowerCase();
         const lowerCaseCategoryValue = value.category.toLocaleLowerCase();
 

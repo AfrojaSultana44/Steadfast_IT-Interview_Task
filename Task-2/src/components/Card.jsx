@@ -5,7 +5,7 @@ const Card = () => {
   const [products, setProducts] = useState([
     {
       id: 1,
-      image: "../public/images/tripod.png",
+      image: "/images/tripod.png",
       title: "Flex Tripod",
       price: 50.48,
       rating: 4.99,
@@ -13,7 +13,7 @@ const Card = () => {
     },
     {
       id: 2,
-      image: "../public/images/mic.png",
+      image: "/images/mic.png",
       title: "Microphone",
       price: 120.25,
       rating: 4.99,
@@ -21,7 +21,7 @@ const Card = () => {
     },
     {
       id: 3,
-      image: "../public/images/drone.png",
+      image: "/images/drone.png",
       title: "Drone",
       price: 980.75,
       rating: 4.99,
@@ -29,7 +29,7 @@ const Card = () => {
     },
     {
       id: 4,
-      image: "../public/images/camera.png",
+      image: "/images/camera.png",
       title: "Camera",
       price: 1800.8,
       rating: 4.99,
